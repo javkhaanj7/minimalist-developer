@@ -1,0 +1,35 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper .title {
+  margin: 10px 0px;
+  font-size: 62px;
+  color: white;
+}
+
+.wrapper .flag {
+  margin: 10px 0px;
+}
+
+.wrapper .flag .flag-icon {
+  margin: 0 4px;
+}
+
+.wrapper .flag .flag-icon:hover {
+  cursor: pointer;
+}
+
+.wrapper .date {
+  margin: 10px 0px;
+  color: white;
+}
+
+.wrapper .flag,
+.wrapper .date {
+  font-size: 18px;
+}
