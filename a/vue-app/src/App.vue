@@ -6,7 +6,7 @@
         href="https://github.com/javkhaanj7/minimalist-developer/tree/master/a/vue-app"
         target="_blank"
       >
-        <i class="fa fa-code-fork" aria-hidden="true"></i>
+        <font-awesome-icon icon="code-branch" />
       </a>
     </div>
     <div class="flag">
@@ -20,7 +20,7 @@
       ></span>
     </div>
     <div class="date">
-      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      <font-awesome-icon icon="clock" />
       {{ today }}
     </div>
   </div>
@@ -98,5 +98,27 @@ a {
 .wrapper .flag,
 .wrapper .date {
   font-size: 18px;
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-gb {
+  background-image: url(~flag-icon-css/flags/4x3/gb.svg);
+}
+
+.flag-icon-mn {
+  background-image: url(~flag-icon-css/flags/4x3/mn.svg);
 }
 </style>

@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-require('../node_modules/font-awesome/css/font-awesome.min.css')
-require('../node_modules/flag-icon-css/css/flag-icon.min.css')
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCodeBranch, faClock } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faCodeBranch, faClock)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
