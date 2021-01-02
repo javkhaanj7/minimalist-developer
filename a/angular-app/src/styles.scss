@@ -48,3 +48,25 @@ a {
     font-size: 18px;
   }
 }
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-gb {
+  background-image: url(~flag-icon-css/flags/4x3/gb.svg);
+}
+
+.flag-icon-mn {
+  background-image: url(~flag-icon-css/flags/4x3/mn.svg);
+}

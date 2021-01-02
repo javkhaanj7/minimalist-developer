@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import * as moment from 'moment';
+import { faCodeBranch, faClock } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,8 @@ import * as moment from 'moment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  public faCodeBranch = faCodeBranch;
+  public faClock = faClock;
   public today = '';
 
   ngOnInit(): void {
