@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --prod --base-href /minimalist-developer/a/angular-app/",
     "build-stats": "ng build --prod --progress --stats-json",
     "bundle-report": "webpack-bundle-analyzer dist/angular-app/stats.json",
     "test": "ng test",

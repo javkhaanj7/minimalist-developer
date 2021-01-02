@@ -17,6 +17,7 @@
     "web-vitals": "^0.2.4",
     "webpack-bundle-analyzer": "^4.3.0"
   },
+  "homepage": "/minimalist-developer/a/react-app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",

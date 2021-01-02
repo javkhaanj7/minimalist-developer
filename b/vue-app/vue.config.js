@@ -12,4 +12,7 @@ module.exports = {
     plugins,
     optimization,
   },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/minimalist-developer/b/vue-app/'
+    : '/'
 };

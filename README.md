@@ -24,4 +24,4 @@
 
 <img src="rgb.png" alt="Angular, Vue.js, React" width="700"/>
 
-[цааш унших](https://medium.com/@javkhlantugs.nyamdorj)
+[цааш унших](https://javkhlantugs-nyamdorj.medium.com/%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D1%81%D1%82-%D1%85%D3%A9%D0%B3%D0%B6%D2%AF%D2%AF%D0%BB%D1%8D%D0%B3%D1%87-%D0%B1%D0%B0%D0%B9%D1%85-%D0%BD%D1%8C-angular-vue-js-react-2311eb0e661c)
