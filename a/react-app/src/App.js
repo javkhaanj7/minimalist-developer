@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import moment from 'moment';
-import 'moment/min/locales';
+import 'moment/locale/mn';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCodeBranch, faClock } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+library.add(faCodeBranch, faClock);
 
 class App extends Component {
 
@@ -24,7 +29,7 @@ class App extends Component {
       <div className="wrapper">
         <div className="title">
           React <a rel="noreferrer" href="https://github.com/javkhaanj7/minimalist-developer/tree/master/a/react-app" target="_blank">
-            <i className="fa fa-code-fork" aria-hidden="true"></i>
+            <FontAwesomeIcon icon="code-branch" />
           </a>
         </div>
         <div className="flag">
@@ -32,7 +37,7 @@ class App extends Component {
           <span className="flag-icon flag-icon-gb" onClick={() => this.changeLocale('en')}></span>
         </div>
         <div className="date">
-          <i className="fa fa-clock-o" aria-hidden="true"></i> {this.state.today}
+          <FontAwesomeIcon icon="clock" /> {this.state.today}
         </div>
       </div>
     )
